@@ -29,7 +29,7 @@ const projects = [
     title: "BYC",
     description: "A full-stack application built with modern tools and frameworks.",
     stack: [{ name: "Vite.js" }, { name: "TailwindCSS" }, { name: "Node.js" }],
-    image: "/assets-1/work/thumb2.png",
+    image: "/assets-1/work/bbbyc.png",
     live: "",
     github: ""
   },
