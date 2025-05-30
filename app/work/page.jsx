@@ -20,8 +20,8 @@ const projects = [
     description: "A modern and responsive web application showcasing advanced frontend development techniques.",
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
     image: "/assets-1/work/thumb1.png",
-    live: "",
-    github: ""
+    live: "byc-zeta.vercel.app",
+    github: "https://github.com/Rotimanchase/BYC-FRONTEND.git"
   },
   {
     num: '02',
