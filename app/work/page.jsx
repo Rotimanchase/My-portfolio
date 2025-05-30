@@ -15,13 +15,13 @@ import WorkSlideBtns from "@/components/WorkSlideBtns";
 const projects = [
   {
     num: '01',
-    category: "Frontend",
-    title: "YorubaAloud",
-    description: "A modern and responsive web application showcasing advanced frontend development techniques.",
-    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
-    image: "/assets-1/work/thumb1.png",
-    live: "byc-zeta.vercel.app",
-    github: "https://github.com/Rotimanchase/BYC-FRONTEND.git"
+    category: "Fullstack",
+    title: "Greencart",
+    description: "A modern and responsive web application showcasing advanced frontend and backend development techniques.",
+    stack: [{ name: "React" }, { name: "TailwindCss" }, { name: "JavaScript" }],
+    image: "/assets-1/work/greee.png",
+    live: "https://greencart-frontend-git-main-rotimans-projects.vercel.app",
+    github: "https://github.com/Rotimanchase/Greencart-frontend"
   },
   {
     num: '02',
@@ -30,8 +30,8 @@ const projects = [
     description: "A full-stack application built with modern tools and frameworks.",
     stack: [{ name: "Vite.js" }, { name: "TailwindCSS" }, { name: "Node.js" }],
     image: "/assets-1/work/bbbyc.png",
-    live: "",
-    github: ""
+    live: "https://byc-zeta.vercel.app",
+    github: "https://github.com/Rotimanchase/BYC-FRONTEND"
   },
   {
     num: '03',
@@ -39,9 +39,9 @@ const projects = [
     title: "This Portfolio",
     description: "A modern and responsive portfolio showcasing advanced frontend development techniques.",
     stack: [{ name: "Next.js" }, { name: "TailwindCSS" }, { name: "Framer Motion" }],
-    image: "/assets-1/work/thumb3.png",
-    live: "",
-    github: ""
+    image: "/assets-1/work/my.JPG",
+    live: "https://my-portfolio-git-main-rotimans-projects.vercel.app/",
+    github: "https://github.com/Rotimanchase/My-portfolio"
   }
 ];
 
@@ -84,7 +84,7 @@ const Work = () => {
 
                 <div className="flex items-center gap-4">
                   {/* live project */}
-                  <Link href={project.live}>
+                  <Link href={project.live} target="_blank" >
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
