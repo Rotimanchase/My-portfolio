@@ -20,7 +20,7 @@ const projects = [
     description: "A modern and responsive web application showcasing advanced frontend and backend development techniques.",
     stack: [{ name: "React" }, { name: "TailwindCss" }, { name: "JavaScript" }],
     image: "/assets-1/work/greee.png",
-    live: "https://greencart-frontend-git-main-rotimans-projects.vercel.app",
+    live: "https://greencart-frontend-psi.vercel.app",
     github: "https://github.com/Rotimanchase/Greencart-frontend"
   },
   {
